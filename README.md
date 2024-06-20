@@ -1,8 +1,29 @@
-# React + Vite
+# Buscador de CEP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de buscador de CEP desenvolvido em React. Ele permite ao usuário inserir um CEP e obter informações detalhadas sobre o endereço correspondente.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Busca de endereço por CEP
+- Exibição de informações detalhadas como logradouro, bairro, cidade e estado
+- Interface amigável e responsiva
+
+## Tecnologias Utilizadas
+
+- React
+- Axios para requisições HTTP
+- Styled-components para estilização
+
+## Como Executar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente:
+
+### Pré-requisitos
+
+- Node.js instalado (recomendado a versão LTS)
+- NPM ou Yarn
+
+### Uso
+ - Insira um CEP válido na barra de busca.
+ - Pressione Enter ou clique no botão de busca.
+ - Veja as informações detalhadas do endereço.
